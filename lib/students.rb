@@ -2,7 +2,7 @@
 
 def highest_student_gpa
   #SELECT column_name FROM table_name ORDER BY column_name ASC|DESC;
-  "SELECT gpa FROM students ORDER BY gpa DESC LIMIT"
+  "SELECT gpa FROM students ORDER BY gpa DESC LIMIT 1;"
 end
 
 def lowest_student_gpa
